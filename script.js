@@ -5,7 +5,7 @@ const weatherContainer = document.getElementById("weather");
 const city = document.getElementById("city");
 const error = document.getElementById('error');
 
-const units = 'imperial'; //can be imperial or metric
+const units = 'metric'; //can be imperial or metric
 let temperatureSymobol = units == 'imperial' ? "°F" : "°C";
 
 async function fetchWeather() {
